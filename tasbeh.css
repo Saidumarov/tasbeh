@@ -1,0 +1,487 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.countenr {
+    width: 1300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.h2 {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    padding: 200px 0 0 0px;
+    margin-left: 400px;
+    z-index: 10;
+}
+
+h1 {
+    font-family: ota;
+}
+
+.img {
+    background-image: url(./tas2.png);
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+
+}
+
+.on {
+    position: absolute;
+    margin: 315px 0 0 502px;
+    background-color: #ededed;
+    width: 50px;
+    height: 25px;
+    border-radius: 50px;
+    transform: rotate(-50deg);
+    border: 1.5px solid hsl(0, 2%, 56%);
+    border-left: 5px solid rgb(0, 0, 255);
+    cursor: pointer;
+}
+
+.of {
+    position: absolute;
+    margin: 330px 0 0 525px;
+    background-color: #ededed;
+    width: 50px;
+    height: 25px;
+    border-radius: 50px;
+    transform: rotate(-49deg);
+    border: 1.5px solid hsl(0, 2%, 56%);
+    border-left: 5px solid rgb(0, 0, 255);
+    cursor: pointer;
+}
+
+.res {
+    position: absolute;
+    margin: 370px 0 0 460px;
+    background-color: #ededed;
+    width: 62px;
+    height: 35px;
+    border-radius: 50px;
+    transform: rotate(-53deg);
+    border: 1.5px solid hsl(0, 2%, 56%);
+    border-left: 5px solid rgb(0, 0, 255);
+    cursor: pointer;
+}
+
+.sonn {
+    font-size: 35px;
+    padding: 270px 0 0 300px;
+    transform: rotate(-57deg);
+}
+
+
+.fon {
+    /* width: 0px; */
+    height: auto;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    display: inline;
+    opacity: -1;
+    margin-top: -250px;
+
+
+
+}
+
+.rig {
+    width: 350px;
+    height: 100%;
+    background-color: #1345e6;
+    position: absolute;
+}
+
+#im {
+    opacity: -10;
+    z-index: -10;
+}
+
+
+
+footer {
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    border-radius: 0 30px 0 30px;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    right: 0;
+    margin: 250px 0 0 0;
+
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+}
+
+.social-links a {
+    border: 2px solid #fff;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 .3rem;
+    transition: all .5s ease;
+}
+
+.social-links a:hover {
+    background: #1345e6;
+    color: var(--dark);
+
+}
+
+footer span {
+    margin-top: 1rem;
+    display: block;
+    font-family: var(--Playfair);
+    letter-spacing: 2px;
+}
+
+
+
+@font-face {
+    font-family: ota;
+    src: url(./Abhaya_Libre/AbhayaLibre-SemiBold.ttf);
+}
+
+
+
+@media only screen and (min-width:600px) {
+    h1 {
+        font-size: 32px;
+        position: absolute;
+        padding: 0;
+        margin: 180px 0 0 20px;
+        z-index: 10;
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (min-width:900px) {
+
+    h1 {
+        font-size: 32px;
+        position: absolute;
+        padding: 0;
+        margin: 100px 0 0 0px;
+        z-index: 10;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (min-width:1000px) {
+
+    h1 {
+        font-size: 32px;
+        position: absolute;
+        padding: 0;
+        margin: 100px 0 0 0px;
+        z-index: 10;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width:900px) {
+    .countenr {
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+
+    h1 {
+        font-size: 32px;
+        position: absolute;
+        padding: 0;
+        margin: 100px 0 0 100px;
+        z-index: 10;
+    }
+
+
+
+
+
+}
+
+@media only screen and (min-width:1400px) {
+
+    h1 {
+        font-size: 32px;
+        position: absolute;
+        padding: 0;
+        margin: 100px 0 0 200px;
+        z-index: 10;
+    }
+
+
+
+
+}
+
+@media only screen and (max-height:900px) {
+    #fo{
+        position: absolute;
+       top: 700px;
+        bottom: 0;
+        height: 100px;
+        margin: 0;
+    }
+    } 
+@media only screen and (min-height:900px) {
+    #fo{
+        position: absolute;
+        top: 300px;
+        bottom: 0;
+        height: 100px;
+
+    }
+    }
+
+
+
+
+
+
+       
+
+
+@media only screen and (max-width:900px) {
+
+
+    .h2 {
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    h1 {
+        font-size: 30px;
+        padding: 50px 0 0 0;
+        z-index: 10;
+        position: absolute;
+        /* top: 110px; */
+        left: 330px;
+
+
+    }
+
+    .img {
+        width: 0;
+        height: 0;
+        opacity: -5;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    .fon {
+        width: 480px;
+
+        position: absolute;
+
+        right: 0;
+
+        z-index: -1;
+        opacity: 1;
+        margin: 0px 0 0 0;
+    }
+
+    #im {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        height: 580px;
+        margin-left: 43px;
+        opacity: 1;
+
+
+    }
+
+    .countenr {
+        width: 0;
+    }
+
+    .sonn {
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .res {
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .on {
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .of {
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    .onn {
+        position: absolute;
+        margin: 255px 0 0 375px;
+        background-color: #ededed;
+        width: 41px;
+        height: 17px;
+        border-radius: 50px;
+        transform: rotate(-60deg);
+        border: 1.5px solid hsl(0, 2%, 56%);
+        border-left: 5px solid rgb(0, 0, 255);
+        cursor: pointer;
+        font-size: 13px;
+    }
+
+    .off {
+        position: absolute;
+        margin: 265px 0 0 390px;
+        background-color: #ededed;
+        width: 45px;
+        height: 18px;
+        border-radius: 50px;
+        transform: rotate(-60deg);
+        border: 1.5px solid hsl(0, 2%, 56%);
+        border-left: 5px solid rgb(0, 0, 255);
+        cursor: pointer;
+        font-size: 12px;
+    }
+
+    .ress {
+        position: absolute;
+        margin: 300px 0 0 345px;
+        background-color: #ededed;
+        width: 50px;
+        height: 28px;
+        border-radius: 50px;
+        transform: rotate(-60deg);
+        border: 1.5px solid hsl(0, 2%, 56%);
+        border-left: 5px solid rgb(0, 0, 255);
+        cursor: pointer;
+        font-size: 13px;
+    }
+
+
+    .conn {
+        font-size: 35px;
+        padding: 250px 0 0 230px;
+        transform: rotate(-57deg);
+    }
+
+    .up {
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        position: absolute;
+        margin: 350px 0 0 250px;
+        font-size: 20px;
+    }
+
+    .up {
+
+        background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+        background-size: 200% auto;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 30px;
+        cursor: pointer;
+        border-radius: 50px;
+        border: none;
+        transition: all 0.9s ease;
+
+    }
+
+
+
+
+    @media only screen and (min-width:800px) {
+
+
+        h1 {
+            font-size: 30px;
+            padding: 50px 0 0 0;
+            z-index: 10;
+            position: absolute;
+            top: 0;
+            left: 230px;
+            /* top:0px; */
+
+
+        }
+    }
+}
+
+@media only screen and (max-width:670px) {
+
+
+    h1 {
+        font-size: 30px;
+        padding: 50px 0 0 0;
+        z-index: 10;
+        position: absolute;
+        top: 0;
+        left: 70px;
+
+
+    }
+
+
+
+
+
+}

@@ -260,19 +260,20 @@ footer span {
 @media only screen and (max-height:900px) {
     #fo{
         position: absolute;
-       top: 700px;
+       top: 650px;
         bottom: 0;
         height: 100px;
         margin: 0;
+        
     }
     } 
 @media only screen and (min-height:900px) {
     #fo{
         position: absolute;
-        top: 300px;
+        top: 3000px;
         bottom: 0;
         height: 100px;
-
+     
     }
     }
 
@@ -304,8 +305,14 @@ footer span {
         left: 330px;
 
 
+
+        
     }
 
+
+    .up{
+        font-size: 200px;
+    }
     .img {
         width: 0;
         height: 0;
@@ -399,7 +406,7 @@ footer span {
         border: 1.5px solid hsl(0, 2%, 56%);
         border-left: 5px solid rgb(0, 0, 255);
         cursor: pointer;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .ress {
@@ -413,7 +420,7 @@ footer span {
         border: 1.5px solid hsl(0, 2%, 56%);
         border-left: 5px solid rgb(0, 0, 255);
         cursor: pointer;
-        font-size: 13px;
+        font-size: 12px;
     }
 
 
@@ -429,7 +436,7 @@ footer span {
         border-radius: 50px;
         position: absolute;
         margin: 350px 0 0 250px;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .up {
@@ -443,6 +450,7 @@ footer span {
         border-radius: 50px;
         border: none;
         transition: all 0.9s ease;
+        font-size: 23px;
 
     }
 
